@@ -1,0 +1,3 @@
+/home/oriens/own/test/opencv/CMakeFiles/edit_cache.dir
+/home/oriens/own/test/opencv/CMakeFiles/rebuild_cache.dir
+/home/oriens/own/test/opencv/CMakeFiles/DisplayImage.dir
