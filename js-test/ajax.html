@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ajax test</title>
+</head>
+<body>
+	<div id="info"></div>
+	<button id="btn">Load</button>
+	<script>
+		function ajax(url, method, data, func ){
+			var xhttp = new XMLHttpRequest()
+			xhttp.onreadystatechange = function(){
+				if(xhttp.readyState ===4 && (xhttp.status >= 200 && xhttp.status < 300) || xhttp.status ===304) {
+					func(xhttp.responseText)
+				}
+				console.log(xhttp.readyState, xhttp.status)
+			}
+			xhttp.open(method, url, true)
+			xhttp.send(data) 
+
+		}
+		var btn = document.getElementById('btn')
+		btn.addEventListener('click',() => { 
+			ajax('test.txt', 'GET', {}, function (data) {
+				console.log(data)
+			})
+		})
+	</script>
+</body>
+</html>
