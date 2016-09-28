@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <style>
+        .box {
+            height: 2000px;
+            width: 2000px;
+        }
+        
+        #info {
+            /*height: 200px;*/
+            width: 200px;
+            position: fixed;
+            right: 10px;
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div id="info"></div>
+    <script>
+
+        var render = e => {
+            const info = document.querySelector('#info')
+
+            info.innerHTML = `Document Coordanate:<br/>
+            pageYOffset: ${window.pageYOffset}<br/>
+            pageXOffset: ${window.pageXOffset}<br/>
+            ViewPort:<br/>
+            innerWidth: ${window.innerWidth}<br/>
+            innerHeight: ${window.innerHeight}<br/>
+            `
+        }
+        window.addEventListener('scroll',  render)
+        window.addEventListener('resize', render)
+    </script>
+</body>
+
+</html>
