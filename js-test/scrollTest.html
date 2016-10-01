@@ -5,9 +5,16 @@
     <meta charset="utf-8">
     <title>Test</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         .box {
-            height: 2000px;
-            width: 2000px;
+            height: 3000px;
+            width: 3000px;
+            position: relative;
         }
         
         #info {
@@ -17,16 +24,62 @@
             right: 10px;
             top: 10px;
         }
+        
+        .cornor {
+            width: 200px;
+            height: 200px;
+            background-color: #00C4D7;
+            position: absolute;
+        }
+        
+        #topLeft {
+            top: 0;
+            left: 0;
+        }
+        
+        #topRight {
+            top: 0;
+            right: 0;
+        }
+        
+        #bottomLeft {
+            bottom: 0;
+            left: 0;
+        }
+        
+        #bottomRight {
+            bottom: 0;
+            right: 0;
+        }
+        
+        #dragBox {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            height: 300px;
+            width: 300px;
+            background-color: #233F89;
+        }
     </style>
 </head>
 
 <body>
-    <div class="box"></div>
+    <div class="box">
+        <div class="cornor" id="topLeft"> </div>
+        <div class="cornor" id="topRight"></div>
+        <div class="cornor" id="bottomLeft"></div>
+        <div class="cornor" id="bottomRight"></div>
+
+        <div id="dragBox"></div>
+    </div>
     <div id="info"></div>
     <script>
 
         var render = e => {
             const info = document.querySelector('#info')
+            const dragBox = document.querySelector('#dragBox')
+            // console.log(dragBox.getBoundingClientRect())
+            const rect = dragBox.getBoundingClientRect()
 
             info.innerHTML = `Document Coordanate:<br/>
             pageYOffset: ${window.pageYOffset}<br/>
@@ -34,6 +87,12 @@
             ViewPort:<br/>
             innerWidth: ${window.innerWidth}<br/>
             innerHeight: ${window.innerHeight}<br/>
+            Dragable: <br/>
+            TOP: ${rect.top}<br/>
+            BOTTOM: ${rect.bottom}<br/>
+            LEFT: ${rect.left}<br/>
+            RIGHT: ${rect.right}<br/>
+
             `
         }
         window.addEventListener('scroll',  render)
