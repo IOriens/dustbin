@@ -1,3 +1,253 @@
 nohup: .: Permission denied
 nohup: .: Permission denied
 2016/10/01 13:01:10 COW 0.9.8 listen http 127.0.0.1:7777, PAC url http://127.0.0.1:7777/pac
+[ERROR] 2016/10/01 17:03:50 can't connect to shadowsocks parent jp02.ftq.pw:31778 for scontent.facebook.com:80: dial tcp: lookup jp02.ftq.pw: no such host
+[ERROR] 2016/10/01 17:03:50 can't connect to shadowsocks parent jp02.ftq.pw:31778 for d.turn.com:443: dial tcp: lookup jp02.ftq.pw: no such host
+[ERROR] 2016/10/01 19:08:08 can't connect to shadowsocks parent jp01.ftq.pw:31778 for gist.github.com:443: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/01 19:08:08 can't connect to shadowsocks parent jp01.ftq.pw:31778 for gist.github.com:443: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 10:34:34 cli(127.0.0.1:63030) unhandled server read error read response body read tcp 192.168.1.157:63040->199.15.213.210:80: read: connection reset by peer GET pages.nginx.com:80/rs/990-FXF-735/images/Ebook%20-%20Docker%20for%20Java%20Developers.png
+[ERROR] 2016/10/02 15:06:37 can't connect to shadowsocks parent jp03.ftq.pw:31778 for polka.typekit.com:443: dial tcp: lookup jp03.ftq.pw: no such host
+[ERROR] 2016/10/02 15:06:37 can't connect to shadowsocks parent jp06.ftq.pw:31778 for polka.typekit.com:443: dial tcp: lookup jp06.ftq.pw: no such host
+[ERROR] 2016/10/02 15:06:37 can't connect to shadowsocks parent jp01.ftq.pw:31778 for polka.typekit.com:443: dial tcp: lookup jp01.ftq.pw: no such host
+[ERROR] 2016/10/02 15:06:37 can't connect to shadowsocks parent jp04.ftq.pw:31778 for polka.typekit.com:443: dial tcp: lookup jp04.ftq.pw: no such host
+[ERROR] 2016/10/02 15:06:37 can't connect to shadowsocks parent jp02.ftq.pw:31778 for polka.typekit.com:443: dial tcp: lookup jp02.ftq.pw: no such host
+[ERROR] 2016/10/02 15:06:37 can't connect to shadowsocks parent jp05.ftq.pw:31778 for polka.typekit.com:443: dial tcp: lookup jp05.ftq.pw: no such host
+[ERROR] 2016/10/02 15:06:44 estimateTimeout: can't connect to baidu.com: dial tcp: lookup baidu.com: no such host, network has problem?
+[ERROR] 2016/10/02 15:07:04 split header malformed header: "text/html\r\n"
+line: text/html
+
+raw header:
+HTTP/1.1 200 OK
+Server: DrcomServer1.0
+Accept-Ranges: bytes
+
+[ERROR] 2016/10/02 15:07:04 parse response header: malformed header: "text/html\r\n" GET 202.202.0.163:9002/In0
+HTTP/1.1 200 OK
+Server: DrcomServer1.0
+Accept-Ranges: bytes
+[ERROR] 2016/10/02 15:23:01 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:51261->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 15:38:18 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:51738->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 15:41:34 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:52000->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 15:45:52 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:52242->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 15:47:09 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:52353->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:01:26 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:53330->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:11:45 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:53715->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:17:00 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:53886->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:23:18 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:54187->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:26:34 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:54270->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:27:26 cli(127.0.0.1:54063) send request body error write tcp 172.22.130.30:54064->17.132.29.97:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/yhMeMGUBV4RzJqYAxNiY?x-client-request-id=BFE2FC1B-D18C-4841-BB75-250DAE3BF805&bin=403000009&Expires=1475399221&region=china
+[ERROR] 2016/10/02 16:27:44 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:54297->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:33:59 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:54565->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:41:16 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:54923->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:42:30 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:54975->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:43:46 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:55009->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:47:02 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:55091->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 16:52:12 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:55263->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 17:09:30 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:55828->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 17:20:47 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:56433->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 17:26:05 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:56585->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 17:29:22 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:56667->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 17:31:38 estimateTimeout: error getting baidu.com: read tcp 172.22.130.30:56764->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 17:44:30 estimateTimeout: can't connect to baidu.com: dial tcp: lookup baidu.com: no such host, network has problem?
+[ERROR] 2016/10/02 17:45:29 cli(127.0.0.1:56692) send request body error write tcp 172.22.130.30:56693->17.132.4.97:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/sUbsIAMBV4S1NmcAxNcF?x-client-request-id=B9CF85CC-0904-46F0-8E46-E674D82EAC97&bin=403000009&Expires=1475403550&region=china
+[ERROR] 2016/10/02 17:45:30 cli(127.0.0.1:56762) send request body error write tcp 172.22.130.30:56763->17.132.4.97:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/iQbVIAYBV4S1NmgAxNcF?x-client-request-id=B9CF85CC-0904-46F0-8E46-E674D82EAC97&bin=403000009&Expires=1475403550&region=china
+[ERROR] 2016/10/02 17:45:37 cli(127.0.0.1:56690) send request body error write tcp 172.22.130.30:56691->17.132.4.97:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/JCIkIAQBV4S1NmcAxNcF?x-client-request-id=B9CF85CC-0904-46F0-8E46-E674D82EAC97&bin=403000009&Expires=1475403550&region=china
+[ERROR] 2016/10/02 17:45:43 cli(127.0.0.1:56785) send request body error write tcp 172.22.130.30:56786->17.132.4.97:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/76ZkIAUBV4S1NmgAxNcF?x-client-request-id=B9CF85CC-0904-46F0-8E46-E674D82EAC97&bin=403000009&Expires=1475403550&region=china
+[ERROR] 2016/10/02 17:45:43 cli(127.0.0.1:56586) send request body error write tcp 172.22.130.30:56587->17.132.4.97:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/iQbVIAYBV4S1NmgAxNcF?x-client-request-id=B9CF85CC-0904-46F0-8E46-E674D82EAC97&bin=403000009&Expires=1475403550&region=china
+[ERROR] 2016/10/02 17:46:24 cli(127.0.0.1:56640) send request body error write tcp 172.22.130.30:56641->17.132.4.97:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/76ZkIAUBV4S1NmgAxNcF?x-client-request-id=B9CF85CC-0904-46F0-8E46-E674D82EAC97&bin=403000009&Expires=1475403550&region=china
+[ERROR] 2016/10/02 18:14:28 can't connect to shadowsocks parent jp03.ftq.pw:31778 for pbs.twimg.com:443: dial tcp: lookup jp03.ftq.pw: no such host
+[ERROR] 2016/10/02 18:14:28 can't connect to shadowsocks parent jp03.ftq.pw:31778 for pbs.twimg.com:443: dial tcp: lookup jp03.ftq.pw: no such host
+[ERROR] 2016/10/02 18:14:28 can't connect to shadowsocks parent jp03.ftq.pw:31778 for pbs.twimg.com:443: dial tcp: lookup jp03.ftq.pw: no such host
+[ERROR] 2016/10/02 18:14:28 can't connect to shadowsocks parent jp03.ftq.pw:31778 for pbs.twimg.com:443: dial tcp: lookup jp03.ftq.pw: no such host
+[ERROR] 2016/10/02 18:14:28 can't connect to shadowsocks parent jp03.ftq.pw:31778 for pbs.twimg.com:443: dial tcp: lookup jp03.ftq.pw: no such host
+[ERROR] 2016/10/02 18:14:28 can't connect to shadowsocks parent jp03.ftq.pw:31778 for pbs.twimg.com:443: dial tcp: lookup jp03.ftq.pw: no such host
+[ERROR] 2016/10/02 19:43:49 cli(127.0.0.1:61366) send request body error write tcp 192.168.1.157:61367->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/VLXPzSIBV4Tnq4MAxNle?x-client-request-id=92333D40-4151-4274-BA16-491FA2FF7690&bin=403000009&Expires=1475406857&region=china
+[ERROR] 2016/10/02 19:44:38 cli(127.0.0.1:61249) send request body error write tcp 192.168.1.157:61251->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/0fgkzSUBV4Tnq4MAxNle?x-client-request-id=92333D40-4151-4274-BA16-491FA2FF7690&bin=403000009&Expires=1475406857&region=china
+[ERROR] 2016/10/02 19:44:47 cli(127.0.0.1:61345) send request body error write tcp 192.168.1.157:61346->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/XlhwzSMBV4Tnq4MAxNle?x-client-request-id=92333D40-4151-4274-BA16-491FA2FF7690&bin=403000009&Expires=1475406857&region=china
+[ERROR] 2016/10/02 19:44:49 cli(127.0.0.1:61212) send request body error write tcp 192.168.1.157:61213->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/dd3_zSQBV4Tnq4MAxNle?x-client-request-id=92333D40-4151-4274-BA16-491FA2FF7690&bin=403000009&Expires=1475406857&region=china
+[ERROR] 2016/10/02 19:50:38 cli(127.0.0.1:61337) send request body error write tcp 192.168.1.157:61338->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/dd3_zSQBV4Tnq4MAxNle?x-client-request-id=92333D40-4151-4274-BA16-491FA2FF7690&bin=403000009&Expires=1475406857&region=china
+[ERROR] 2016/10/02 19:51:44 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:61894->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 20:56:06 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:52749->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 20:59:17 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:53103->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/02 21:35:29 peek chunk size: read tcp 192.168.1.157:57835->183.60.209.40:80: read: connection reset by peer
+[ERROR] 2016/10/02 21:35:29 cli(127.0.0.1:57834) unhandled server read error read response body read tcp 192.168.1.157:57835->183.60.209.40:80: read: connection reset by peer GET lixian.vip.xunlei.com:80/getantiurls/
+[ERROR] 2016/10/02 21:44:34 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:35 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:37 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:37 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:37 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:37 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:37 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:37 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:38 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:38 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:38 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:38 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:38 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:38 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:39 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:39 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:39 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:39 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:39 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:53 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:53 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:53 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:53 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:53 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:44:53 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:00 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:00 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:00 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:00 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:00 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:00 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:03 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:30 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:30 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:30 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:30 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:30 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 21:45:30 can't connect to shadowsocks parent jp01.ftq.pw:31778 for q.qlogo.cn:80: dial tcp 106.186.122.42:31778: getsockopt: operation timed out
+[ERROR] 2016/10/02 23:21:29 cli(127.0.0.1:61295) send request body error write tcp 192.168.1.157:61296->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/eAhfTesBV4X2wdoAxNfO?x-client-request-id=BBA88CC5-48A6-4FB2-8FDB-9B531CF6E685&bin=403000009&Expires=1475424623&region=china
+[ERROR] 2016/10/02 23:32:18 cli(127.0.0.1:61517) send request body error write tcp 192.168.1.157:61518->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/igr4TekBV4X2wdkAxNfO?x-client-request-id=BBA88CC5-48A6-4FB2-8FDB-9B531CF6E685&bin=403000009&Expires=1475424623&region=china
+[ERROR] 2016/10/03 00:14:36 cli(127.0.0.1:64948) send request body error write tcp 192.168.1.157:64950->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/PAjuK3YBV4Yqh_sAxNnB?x-client-request-id=0A3BFF1F-62B7-4F0D-9C1E-B39DE3D136EA&bin=403000009&Expires=1475428016&region=china
+[ERROR] 2016/10/03 00:36:44 cli(127.0.0.1:49257) send request body error write tcp 192.168.1.157:49261->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/dgAZK3kBV4Yqh_sAxNnB?x-client-request-id=0A3BFF1F-62B7-4F0D-9C1E-B39DE3D136EA&bin=403000009&Expires=1475428016&region=china
+[ERROR] 2016/10/03 00:40:50 cli(127.0.0.1:49258) send request body error write tcp 192.168.1.157:49262->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/QTmBK3cBV4Yqh_sAxNnB?x-client-request-id=0A3BFF1F-62B7-4F0D-9C1E-B39DE3D136EA&bin=403000009&Expires=1475428016&region=china
+[ERROR] 2016/10/03 01:50:25 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:49689->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 01:50:41 cli(127.0.0.1:49455) send request body error write tcp 192.168.1.157:49456->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/dgAZK3kBV4Yqh_sAxNnB?x-client-request-id=0A3BFF1F-62B7-4F0D-9C1E-B39DE3D136EA&bin=403000009&Expires=1475428016&region=china
+[ERROR] 2016/10/03 01:51:36 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:49720->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 01:51:51 cli(127.0.0.1:49457) send request body error write tcp 192.168.1.157:49458->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/QTmBK3cBV4Yqh_sAxNnB?x-client-request-id=0A3BFF1F-62B7-4F0D-9C1E-B39DE3D136EA&bin=403000009&Expires=1475428016&region=china
+[ERROR] 2016/10/03 01:52:42 cli(127.0.0.1:49684) send request body error write tcp 192.168.1.157:49686->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/gQ3qeuQBV4aDNmkAxNol?x-client-request-id=A37DD155-EA4E-4972-937C-AC7C2A1D6916&bin=403000009&Expires=1475433828&region=china
+[ERROR] 2016/10/03 01:52:53 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:49765->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 01:55:11 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:49811->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 01:57:35 cli(127.0.0.1:49477) send request body error write tcp 192.168.1.157:49478->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/cZHSK3gBV4Yqh_sAxNnB?x-client-request-id=0A3BFF1F-62B7-4F0D-9C1E-B39DE3D136EA&bin=403000009&Expires=1475428016&region=china
+[ERROR] 2016/10/03 03:04:34 cli(127.0.0.1:49986) send request body error write tcp 192.168.1.157:49987->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/VT3QeuMBV4aDNmkAxNol?x-client-request-id=A37DD155-EA4E-4972-937C-AC7C2A1D6916&bin=403000009&Expires=1475433828&region=china
+[ERROR] 2016/10/03 03:05:42 cli(127.0.0.1:50012) send request body error write tcp 192.168.1.157:50013->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/y8wPeuYBV4aDNmoAxNol?x-client-request-id=A37DD155-EA4E-4972-937C-AC7C2A1D6916&bin=403000009&Expires=1475433828&region=china
+[ERROR] 2016/10/03 03:05:47 cli(127.0.0.1:49935) send request body error write tcp 192.168.1.157:49936->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/Orq7euUBV4aDNmoAxNol?x-client-request-id=A37DD155-EA4E-4972-937C-AC7C2A1D6916&bin=403000009&Expires=1475433828&region=china
+[ERROR] 2016/10/03 03:06:20 cli(127.0.0.1:49992) send request body error write tcp 192.168.1.157:49993->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/Orq7euUBV4aDNmoAxNol?x-client-request-id=A37DD155-EA4E-4972-937C-AC7C2A1D6916&bin=403000009&Expires=1475433828&region=china
+[ERROR] 2016/10/03 03:06:48 cli(127.0.0.1:49988) send request body error write tcp 192.168.1.157:49989->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/gQ3qeuQBV4aDNmkAxNol?x-client-request-id=A37DD155-EA4E-4972-937C-AC7C2A1D6916&bin=403000009&Expires=1475433828&region=china
+[ERROR] 2016/10/03 03:08:12 cli(127.0.0.1:49933) send request body error write tcp 192.168.1.157:49934->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/y8wPeuYBV4aDNmoAxNol?x-client-request-id=A37DD155-EA4E-4972-937C-AC7C2A1D6916&bin=403000009&Expires=1475433828&region=china
+[ERROR] 2016/10/03 03:08:47 cli(127.0.0.1:50149) send request body error write tcp 192.168.1.157:50151->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/zqdPeuQBV4bIgEYAxNle?x-client-request-id=7FC165E9-9A2D-4EA5-99C4-8A2111F53804&bin=403000009&Expires=1475438369&region=china
+[ERROR] 2016/10/03 03:12:19 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:50270->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 03:15:36 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:50347->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 03:16:53 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:50370->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 03:18:03 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:50399->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 04:25:57 cli(127.0.0.1:50400) send request body error write tcp 192.168.1.157:50401->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/WKoLeuMBV4bIgEYAxNle?x-client-request-id=7FC165E9-9A2D-4EA5-99C4-8A2111F53804&bin=403000009&Expires=1475438369&region=china
+[ERROR] 2016/10/03 04:27:20 cli(127.0.0.1:50632) send request body error write tcp 192.168.1.157:50634->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/WhCh0tsBV4cS8OEAxNj9?x-client-request-id=0CDA7612-F323-42B8-B401-9D856B2843DB&bin=403000009&Expires=1475443248&region=china
+[ERROR] 2016/10/03 04:27:20 cli(127.0.0.1:50541) send request body error write tcp 192.168.1.157:50542->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/VdVceuEBV4bIgEYAxNle?x-client-request-id=7FC165E9-9A2D-4EA5-99C4-8A2111F53804&bin=403000009&Expires=1475438369&region=china
+[ERROR] 2016/10/03 04:28:00 cli(127.0.0.1:50451) send request body error write tcp 192.168.1.157:50452->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/VdVceuEBV4bIgEYAxNle?x-client-request-id=7FC165E9-9A2D-4EA5-99C4-8A2111F53804&bin=403000009&Expires=1475438369&region=china
+[ERROR] 2016/10/03 04:28:43 cli(127.0.0.1:50497) send request body error write tcp 192.168.1.157:50498->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/WKoLeuMBV4bIgEYAxNle?x-client-request-id=7FC165E9-9A2D-4EA5-99C4-8A2111F53804&bin=403000009&Expires=1475438369&region=china
+[ERROR] 2016/10/03 04:30:14 cli(127.0.0.1:50538) send request body error write tcp 192.168.1.157:50539->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/IG1meuIBV4bIgEYAxNle?x-client-request-id=7FC165E9-9A2D-4EA5-99C4-8A2111F53804&bin=403000009&Expires=1475438369&region=china
+[ERROR] 2016/10/03 04:30:17 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:50715->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 04:32:34 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:50787->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 05:34:04 cli(127.0.0.1:50718) send request body error write tcp 192.168.1.157:50720->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/kL9c0twBV4cS8OEAxNj9?x-client-request-id=0CDA7612-F323-42B8-B401-9D856B2843DB&bin=403000009&Expires=1475443248&region=china
+[ERROR] 2016/10/03 05:34:06 cli(127.0.0.1:50597) send request body error write tcp 192.168.1.157:50601->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/kL9c0twBV4cS8OEAxNj9?x-client-request-id=0CDA7612-F323-42B8-B401-9D856B2843DB&bin=403000009&Expires=1475443248&region=china
+[ERROR] 2016/10/03 05:34:14 cli(127.0.0.1:50594) send request body error write tcp 192.168.1.157:50599->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/R8HH0tkBV4cS8OEAxNj9?x-client-request-id=0CDA7612-F323-42B8-B401-9D856B2843DB&bin=403000009&Expires=1475443248&region=china
+[ERROR] 2016/10/03 05:34:49 cli(127.0.0.1:50771) send request body error write tcp 192.168.1.157:50772->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/kL9c0twBV4cS8OEAxNj9?x-client-request-id=0CDA7612-F323-42B8-B401-9D856B2843DB&bin=403000009&Expires=1475443248&region=china
+[ERROR] 2016/10/03 05:34:56 cli(127.0.0.1:50766) send request body error write tcp 192.168.1.157:50767->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/FCPm0toBV4cS8OEAxNj9?x-client-request-id=0CDA7612-F323-42B8-B401-9D856B2843DB&bin=403000009&Expires=1475443248&region=china
+[ERROR] 2016/10/03 05:35:02 cli(127.0.0.1:50717) send request body error write tcp 192.168.1.157:50719->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/FCPm0toBV4cS8OEAxNj9?x-client-request-id=0CDA7612-F323-42B8-B401-9D856B2843DB&bin=403000009&Expires=1475443248&region=china
+[ERROR] 2016/10/03 05:35:03 cli(127.0.0.1:50596) send request body error write tcp 192.168.1.157:50598->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/WhCh0tsBV4cS8OEAxNj9?x-client-request-id=0CDA7612-F323-42B8-B401-9D856B2843DB&bin=403000009&Expires=1475443248&region=china
+[ERROR] 2016/10/03 05:35:08 cli(127.0.0.1:50768) send request body error write tcp 192.168.1.157:50769->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/R8HH0tkBV4cS8OEAxNj9?x-client-request-id=0CDA7612-F323-42B8-B401-9D856B2843DB&bin=403000009&Expires=1475443248&region=china
+[ERROR] 2016/10/03 05:36:23 cli(127.0.0.1:50773) send request body error write tcp 192.168.1.157:50774->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/EXXA0t0BV4cS8OEAxNj9?x-client-request-id=0CDA7612-F323-42B8-B401-9D856B2843DB&bin=403000009&Expires=1475443248&region=china
+[ERROR] 2016/10/03 05:36:38 cli(127.0.0.1:50684) send request body error write tcp 192.168.1.157:50685->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/R8HH0tkBV4cS8OEAxNj9?x-client-request-id=0CDA7612-F323-42B8-B401-9D856B2843DB&bin=403000009&Expires=1475443248&region=china
+[ERROR] 2016/10/03 05:40:08 cli(127.0.0.1:50994) send request body error write tcp 192.168.1.157:50995->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/X2-CH9oBV4dQtKQAxNiV?x-client-request-id=A3F5A869-DE35-4C91-842B-9573EC21E63A&bin=403000009&Expires=1475447295&region=china
+[ERROR] 2016/10/03 05:50:29 cli(127.0.0.1:51253) send request body error write tcp 192.168.1.157:51254->17.132.29.100:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/GuiPH9wBV4dQtKQAxNiV?x-client-request-id=A3F5A869-DE35-4C91-842B-9573EC21E63A&bin=403000009&Expires=1475447295&region=china
+[ERROR] 2016/10/03 06:52:19 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:51303->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 06:53:11 cli(127.0.0.1:51229) send request body error write tcp 192.168.1.157:51230->17.132.29.100:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/FrxxH9sBV4dQtKQAxNiV?x-client-request-id=A3F5A869-DE35-4C91-842B-9573EC21E63A&bin=403000009&Expires=1475447295&region=china
+[ERROR] 2016/10/03 06:53:17 cli(127.0.0.1:51206) send request body error write tcp 192.168.1.157:51207->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/k0zbH90BV4dQtKQAxNiV?x-client-request-id=A3F5A869-DE35-4C91-842B-9573EC21E63A&bin=403000009&Expires=1475447295&region=china
+[ERROR] 2016/10/03 06:53:58 cli(127.0.0.1:51231) send request body error write tcp 192.168.1.157:51186->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/eOmGH94BV4dQtKQAxNiV?x-client-request-id=A3F5A869-DE35-4C91-842B-9573EC21E63A&bin=403000009&Expires=1475447295&region=china
+[ERROR] 2016/10/03 06:56:35 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:51423->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 06:59:44 cli(127.0.0.1:51481) send request body error write tcp 192.168.1.157:51482->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/uldCDgQBV4eYnHEAxNgx?x-client-request-id=9B7A25C3-28CC-4EC1-BFAA-66213510EC9C&bin=403000009&Expires=1475452008&region=china
+[ERROR] 2016/10/03 08:06:45 cli(127.0.0.1:51607) send request body error write tcp 192.168.1.157:51608->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/roqBDgcBV4eYnHIAxNgx?x-client-request-id=9B7A25C3-28CC-4EC1-BFAA-66213510EC9C&bin=403000009&Expires=1475452008&region=china
+[ERROR] 2016/10/03 08:06:51 cli(127.0.0.1:51538) send request body error write tcp 192.168.1.157:51539->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/roqBDgcBV4eYnHIAxNgx?x-client-request-id=9B7A25C3-28CC-4EC1-BFAA-66213510EC9C&bin=403000009&Expires=1475452008&region=china
+[ERROR] 2016/10/03 08:07:19 cli(127.0.0.1:51563) send request body error write tcp 192.168.1.157:51564->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/6OH-DgUBV4eYnHEAxNgx?x-client-request-id=9B7A25C3-28CC-4EC1-BFAA-66213510EC9C&bin=403000009&Expires=1475452008&region=china
+[ERROR] 2016/10/03 08:08:17 cli(127.0.0.1:51584) send request body error write tcp 192.168.1.157:51585->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/ekOADggBV4eYnHIAxNgx?x-client-request-id=9B7A25C3-28CC-4EC1-BFAA-66213510EC9C&bin=403000009&Expires=1475452008&region=china
+[ERROR] 2016/10/03 08:08:19 cli(127.0.0.1:51609) send request body error write tcp 192.168.1.157:51537->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/ekOADggBV4eYnHIAxNgx?x-client-request-id=9B7A25C3-28CC-4EC1-BFAA-66213510EC9C&bin=403000009&Expires=1475452008&region=china
+[ERROR] 2016/10/03 08:08:46 cli(127.0.0.1:51559) send request body error write tcp 192.168.1.157:51560->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/98UdDgYBV4eYnHEAxNgx?x-client-request-id=9B7A25C3-28CC-4EC1-BFAA-66213510EC9C&bin=403000009&Expires=1475452008&region=china
+[ERROR] 2016/10/03 08:14:14 cli(127.0.0.1:51587) send request body error write tcp 192.168.1.157:51588->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/98UdDgYBV4eYnHEAxNgx?x-client-request-id=9B7A25C3-28CC-4EC1-BFAA-66213510EC9C&bin=403000009&Expires=1475452008&region=china
+[ERROR] 2016/10/03 08:23:08 cli(127.0.0.1:51977) send request body error write tcp 192.168.1.157:51978->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/8OjxOugBV4fcQAMAxNiY?x-client-request-id=6740D1DF-460F-4CD4-868B-39CB1FEA4EA6&bin=403000009&Expires=1475456441&region=china
+[ERROR] 2016/10/03 09:03:56 cli(127.0.0.1:52071) send request body error write tcp 192.168.1.157:52072->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/EeFSOuYBV4fcQAMAxNiY?x-client-request-id=6740D1DF-460F-4CD4-868B-39CB1FEA4EA6&bin=403000009&Expires=1475456440&region=china
+[ERROR] 2016/10/03 09:04:07 cli(127.0.0.1:52094) send request body error write tcp 192.168.1.157:52095->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/ZHJbOukBV4fcQAMAxNiY?x-client-request-id=6740D1DF-460F-4CD4-868B-39CB1FEA4EA6&bin=403000009&Expires=1475456441&region=china
+[ERROR] 2016/10/03 09:04:09 cli(127.0.0.1:52073) send request body error write tcp 192.168.1.157:52074->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/8OjxOugBV4fcQAMAxNiY?x-client-request-id=6740D1DF-460F-4CD4-868B-39CB1FEA4EA6&bin=403000009&Expires=1475456441&region=china
+[ERROR] 2016/10/03 09:04:10 cli(127.0.0.1:52029) send request body error write tcp 192.168.1.157:52030->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/RZMTOucBV4fcQAMAxNiY?x-client-request-id=6740D1DF-460F-4CD4-868B-39CB1FEA4EA6&bin=403000009&Expires=1475456440&region=china
+[ERROR] 2016/10/03 09:04:52 cli(127.0.0.1:52001) send request body error write tcp 192.168.1.157:52002->17.132.4.102:80: write: broken pipe PUT store-011.blobstore.apple.com:80/apple-mas-00001/EeFSOuYBV4fcQAMAxNiY?x-client-request-id=6740D1DF-460F-4CD4-868B-39CB1FEA4EA6&bin=403000009&Expires=1475456440&region=china
+2016/10/03 11:08:31 terminated caught, exit
+2016/10/03 11:09:33 COW 0.9.8 listen http 127.0.0.1:7777, PAC url http://127.0.0.1:7777/pac
+[ERROR] 2016/10/03 11:20:47 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:61222->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 11:26:04 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:61722->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 11:29:10 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:62121->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 11:49:11 cli(127.0.0.1:65477) send request body error write tcp 192.168.1.157:65479->119.84.102.14:80: write: broken pipe POST vs107.upload.acgvideo.com:80/upload.cgi?uid=2019807&filename=e4884bdd48c59ffe96457e531d91bf33&hash=63c5b16c76ce8ff4ed5981996a9f4c8f
+[ERROR] 2016/10/03 11:51:30 cli(127.0.0.1:49440) send request body error write tcp 192.168.1.157:49442->119.84.102.14:80: write: broken pipe POST vs107.upload.acgvideo.com:80/upload.cgi?uid=2019807&filename=e4884bdd48c59ffe96457e531d91bf33&hash=63c5b16c76ce8ff4ed5981996a9f4c8f
+[ERROR] 2016/10/03 11:56:26 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:49859->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 12:12:16 can't connect to shadowsocks parent hk03.ftq.pw:31778 for api.twitter.com:443: dial tcp 103.16.26.180:31778: getsockopt: operation timed out
+[ERROR] 2016/10/03 12:23:50 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:55644->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 12:27:08 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:56210->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 12:54:28 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:61454->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 13:06:45 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:62621->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 13:08:01 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:62681->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 13:37:16 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:64666->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 13:54:28 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:49424->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 14:12:43 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:51717->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 14:18:54 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:52395->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 14:30:11 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:53581->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 14:32:27 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:53714->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 14:37:44 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:54119->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 15:07:04 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:58647->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 17:11:02 can't connect to shadowsocks parent hk03.ftq.pw:31778 for scss-prod-an1-notif-13.adobesc.com:443: dial tcp 103.16.26.180:31778: getsockopt: operation timed out
+[ERROR] 2016/10/03 17:16:38 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:54196->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 17:23:54 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:54595->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 18:12:17 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:57135->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 18:13:33 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:57195->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 18:17:39 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:57382->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 18:18:49 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:57455->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 22:34:29 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:64763->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 22:35:40 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:64987->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 23:02:00 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:53381->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/03 23:09:18 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:54060->111.13.101.208:80: read: connection reset by peer, network has problem?
+2016/10/03 23:46:23 COW 0.9.8 listen http 127.0.0.1:7777, PAC url http://127.0.0.1:7777/pac
+[ERROR] 2016/10/03 23:53:59 can't connect to shadowsocks parent sg02.ftq.pw:31778 for mail.google.com:443: dial tcp 103.233.82.76:31778: getsockopt: operation timed out
+[ERROR] 2016/10/04 00:56:38 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:51551->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 01:19:56 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:52475->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 01:22:14 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:52486->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 01:29:31 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:52527->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 01:38:47 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:52627->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 02:01:06 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:52812->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 02:09:23 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:52888->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 02:16:39 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:52930->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 02:22:55 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:52965->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 02:24:11 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:52994->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 03:13:33 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:53386->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 03:21:50 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:53461->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 03:25:08 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:53493->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 04:04:29 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:53828->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 04:09:46 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:53889->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 04:14:02 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:53922->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 04:20:19 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:53991->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 04:23:34 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:54006->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 04:25:50 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:54022->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 04:27:06 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:54027->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 05:23:28 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:54473->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 05:27:44 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:54489->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 05:29:00 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:54502->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 06:02:20 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:54811->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 07:30:17 can't connect to shadowsocks parent sg02.ftq.pw:31778 for mtalk.google.com:443: dial tcp 103.233.82.76:31778: getsockopt: operation timed out
+[ERROR] 2016/10/04 08:01:50 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:55859->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 08:08:07 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:55908->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 09:20:31 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:56511->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 09:23:48 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:56537->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 09:25:03 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:56613->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 09:27:13 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:56913->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 10:15:34 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:58035->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 10:23:56 can't connect to shadowsocks parent sg02.ftq.pw:31778 for mtalk.google.com:443: dial tcp 103.233.82.76:31778: getsockopt: operation timed out
+[ERROR] 2016/10/04 10:26:55 can't connect to shadowsocks parent sg02.ftq.pw:31778 for mtalk.google.com:443: dial tcp 103.233.82.76:31778: getsockopt: operation timed out
+[ERROR] 2016/10/04 10:43:53 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:59105->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 10:50:11 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:59372->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 10:54:16 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:59532->111.13.101.208:80: read: connection reset by peer, network has problem?
+2016/10/04 10:56:26 COW 0.9.8 listen http 127.0.0.1:7777, PAC url http://127.0.0.1:7777/pac
+[ERROR] 2016/10/04 11:30:47 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:61898->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 11:33:02 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:62015->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 11:35:18 estimateTimeout: error getting baidu.com: read tcp 192.168.1.157:62134->111.13.101.208:80: read: connection reset by peer, network has problem?
+[ERROR] 2016/10/04 12:52:45 can't connect to shadowsocks parent tw01.ftq.pw:31778 for cc-api-storage.adobe.io:443: dial tcp: lookup tw01.ftq.pw: no such host
+[ERROR] 2016/10/04 12:52:48 can't connect to shadowsocks parent sg02.ftq.pw:31778 for cc-api-storage.adobe.io:443: dial tcp: lookup sg02.ftq.pw: no such host
+2016/10/04 12:52:50 terminated caught, exit
