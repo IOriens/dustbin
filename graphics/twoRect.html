@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Canvas Rect Test</title>
+  <style>
+    canvas {
+      width: 200;
+      height: 300;
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="cvs">
+  <!--<canvas id="cvs" height="200" width="200">-->
+		Canvas Not Supported
+	</canvas>
+  <script>
+    var ctx = document.querySelector('#cvs').getContext('2d')
+    
+    ctx.fillStyle = "rgb(200,0,0)";
+    ctx.fillRect(10, 10, 50, 50);
+  </script>
+</body>
+
+</html>
