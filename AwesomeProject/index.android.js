@@ -9,23 +9,30 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Platform,
+  TouchableHighlight,
+  TouchableNativeFeedback
 } from 'react-native';
 
 export default class AwesomeProject extends Component {
   render() {
+
+    var TouchableElement = TouchableHighlight
+    if (Platform.OS === 'android') {
+      TouchableElement = TouchableNativeFeedback
+    }
+
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Click the button bellow ！
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+        <TouchableElement>
+          <View>
+            <Text>Magic !</Text>
+          </View>
+        </TouchableElement>
       </View>
     );
   }
