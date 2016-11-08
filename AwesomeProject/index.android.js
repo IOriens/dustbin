@@ -15,7 +15,21 @@ import {
   TouchableNativeFeedback
 } from 'react-native';
 
+import MyToastAndroid from './src/modules/MyToastAndroid.js'
+
 export default class AwesomeProject extends Component {
+  constructor (props) {
+    super(props)
+
+    this.state = {
+      flag: true
+    }
+  }
+
+  handleClick () {
+    this.setState({flag: !this.state.flag})
+    MyToastAndroid.show('State changed !', MyToastAndroid.SHORT)
+  }
   render() {
 
     var TouchableElement = TouchableHighlight
@@ -25,12 +39,12 @@ export default class AwesomeProject extends Component {
 
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
+        <Text style={styles.intro}>
           Click the button bellow ！
         </Text>
-        <TouchableElement>
-          <View>
-            <Text>Magic !</Text>
+        <TouchableElement onPress={e => this.handleClick()}>
+          <View >
+            <Text style={styles.button}>{this.state.flag ? 'ON': 'OFF'}</Text>
           </View>
         </TouchableElement>
       </View>
@@ -45,15 +59,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
-  welcome: {
+  intro: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
   },
-  instructions: {
+  button: {
+    padding: 20,
+    backgroundColor: '#eee',
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
+    borderRadius: 5,
   },
 });
 
