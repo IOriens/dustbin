@@ -1,0 +1,16 @@
+{
+  "name": "value",
+  "version": "1.0.0",
+  "description": "",
+  "main": "value.js",
+  "scripts": {
+    "dev": "./node_modules/gulp/bin/gulp.js serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1"
+  }
+}
