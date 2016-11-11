@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Payment Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -12,22 +13,42 @@
         <div class="box-method">
             <div class="container-radio">
                 <input type="radio" name="method" value="papal" id="paypal">
-                <label for="paypal"><span class="radio-state"><span class="radio-state-inner"></span></span>PayPal <img src="./img/paypal-icon.png" alt="paypal-icon"></label>
+                <label for="paypal">
+                    <span class="radio-state">
+                        <span class="radio-state-inner"></span>
+                    </span>PayPal 
+                    <img src="./img/paypal-icon.png" alt="paypal-icon">
+                </label>
             </div>
             <div class="container-radio">
                 <input type="radio" name="method" value="debit" id="debit">
-                <label for="debit"><span class="radio-state"><span class="radio-state-inner"></span></span><div class="triangle"></div><div class="triangle-border"></div>Debit/credit card <img src="./img/smg2.png" alt="bu ren shi"> <img src="./img/smg1.png" alt="bu ren shi"><img src="./img/visa-icon.png" alt="visa-icon"></label>
+                <label for="debit">
+                    <span class="radio-state">
+                        <span class="radio-state-inner"></span>
+                    </span>
+                    <div class="triangle"></div>
+                    <div class="triangle-border"></div>Debit/credit card 
+                    <img src="./img/smg2.png" alt="bu ren shi"> 
+                    <img src="./img/smg1.png" alt="bu ren shi">
+                    <img src="./img/visa-icon.png" alt="visa-icon">
+                </label>
             </div>
             <div class="container-text">
-                <label for="cardNumber">Card number</label><input type="text" id="cardNumber" placeholder="111 222 333 43434">
+                <label for="cardNumber">Card number</label>
+                <input type="text" id="cardNumber" placeholder="4111 1111 1111">
             </div>
             <div class="container-text container-last">
-                <label for="expiry">Expiry</label><input type="text" id="expiry" placeholder="MM/YY">
-                <label for="cvc">CVC</label><input type="text" id="cvc" placeholder="123">
+                <label for="expiry">Expiry</label>
+                <input type="text" id="expiry" placeholder="MM/YY">
+                <label for="cvc">CVC</label>
+                <input type="text" id="cvc" placeholder="123">
                 <i class="iconfont">&#xe7c4;</i>
             </div>
         </div>
-        <button class="submit-btn"><i class="iconfont">&#xe614;</i><span>Finish and pay</span></button>
+        <button class="submit-btn">
+            <i class="iconfont">&#xe614;</i>
+            <span>Finish and pay</span>
+        </button>
     </div>
 </body>
 
