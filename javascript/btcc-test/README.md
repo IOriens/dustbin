@@ -5,7 +5,7 @@ cd xxx/
 node test.js
 ```
 ### Enviroment
-node v6.6.0
+Node v6.6.0
 
 ## HTML&CSS Tests
 ### How to Run
@@ -18,4 +18,5 @@ npm run dev
 ```
 ### Tested Browser
 Google Chrome Version 54.0.2840.71 (64-bit)
+
 Safari Version 10.0.1
