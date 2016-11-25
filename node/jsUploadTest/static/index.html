@@ -3,9 +3,21 @@
 <head>
     <meta charset="utf-8">
     <title>Upload Test</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Uuuuuuuupload</h2>
+    <h3>Demo1: 选取一张图片，并预览</h3>
+    <input id="img_upload" type="file" accept="image/*" />
+    <label for="img_upload"></label>
+    <div class="preview_box"></div>
+    <hr>
+
+    <h3>Demo2: 拖拽上传</h3>
+    <div class="drop_zone">Drop files here</div>
+    <output id="list"></output>
+
+
+    <script src="index.js"></script>
     
 </body>
 </html>
