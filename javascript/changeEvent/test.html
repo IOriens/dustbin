@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+</head>
+
+<body>
+    <form action="#">
+        <input type="radio" name="test" value="1">
+        <input type="radio" name="test" value="2">
+        <input type="radio" name="test" value="3">
+        <input type="radio" name="test" value="4">
+    </form>
+    <script>
+        const radioGroup = Array.from(document.getElementsByName('test'))
+        radioGroup.map(inpu =>{
+                inpu.addEventListener('change', e => {
+                    console.log('test')
+                    console.log(inpu.value)
+                })
+            }
+        )
+    </script>
+</body>
+
+</html>

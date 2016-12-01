@@ -46,3 +46,11 @@ jspm_packages
 
 # Python Stuff
 *.pyc
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+#  # Thumbnail cache files
+._*
+Thumbs.db
