@@ -2,6 +2,8 @@
 Just all kinds of junk code... JS\Android\Java\C++
 
 ## Some Visiable Tests
+[Multi-Line Text Sorter](https://rawgit.com/IOriens/dustbin/master/fe-works/textSorter/dist/index.html)
+
 [A Payment Component in Pure CSS](https://rawgit.com/IOriens/dustbin/master/fe-works/btcc-test/paymentPage/src/index.html)
 
 [A Scroll Test](https://rawgit.com/IOriens/dustbin/master/fe-works/scrollTest.html)
