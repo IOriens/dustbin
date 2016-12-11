@@ -1,6 +1,7 @@
-# text-sorter
+# Multi-Line Text Sorter
+![Multi-Line Text Sorter](./text-sorter.png)
 
-> A Vue.js project
+
 
 ## Build Setup
 
