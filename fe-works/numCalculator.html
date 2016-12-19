@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <style>
+        textarea, #info{
+            resize: none;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea name="inpu" id="inpu" cols="100" rows="20">
+
+    </textarea>
+    <div id="info">
+    </div>
+    <script>
+        
+        const $$ = e =>{
+            return document.querySelector(e)
+        } 
+
+        $$('#inpu').addEventListener('change', e => {
+            $$('#info').innerHTML = $$('#inpu').value.length
+        })
+
+        window.addEventListener('keydown', e => {
+            $$('#info').innerHTML = $$('#inpu').value.length
+        })
+        
+    </script>
+</body>
+
+</html>
