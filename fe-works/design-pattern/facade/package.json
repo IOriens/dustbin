@@ -1,0 +1,24 @@
+{
+  "name": "adaper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon src/main.js --exec babel-node --presets es2015,stage-2",
+    "test": "mocha test.js --compilers js:babel-register -watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-env": "^1.1.4",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mocha-sinon": "^1.1.6",
+    "nodemon": "^1.11.0",
+    "sinon": "^2.0.0-pre.4"
+  }
+}
